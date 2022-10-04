@@ -1,20 +1,78 @@
-.full header {
+.Full-Header {
+    background-color: #1F2937;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.Headera {
+    font-size: 24px;
+    color: #f9faf8;
+    display: inline;
+    margin-left: 100px;
+}
+.Headerb {
+    font-size: 18px;
+    color: #e5e7eb;
+   display:inline;
+   margin-left: 30%;
+   font-weight: 200%;
 
 }
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    margin-left: 15px;
+}
+.First {
+    background-color:#1F2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+}
+#this {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  display: flex;
+  flex-wrap: wrap;
 
-.first {
-
+}
+.img1 {
+    display: flex;
+    align-self: flex-end;
+    object-fit: contain;
 }
 .second {
 
 }
 .third {
-
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+#quote {
+    font-size: 18px;
+    font-weight: 900;
+    display: flex;
+    font-style: inherit;
 }
 .fourth {
-
+    background-color: rgb(58, 75, 255)
+    color: #e5e7eb;
+    font-size: 12px;
 }
-.footer {
+#call {
+    font-weight: 700;
+    font-size: 18px;
+}
+.Footer {
     background-color: #1F2937;
     color: white;
     position: fixed; bottom: 0%;
@@ -22,8 +80,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-image {
-    width: 50px
-    height: 50px
+    height: 5%;
 }
