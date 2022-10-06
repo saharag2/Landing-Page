@@ -1,6 +1,6 @@
 .Full-Header {
     background-color: #1F2937;
-    width: 100%;
+    
     margin: auto;
     display: flex;
 }
@@ -31,6 +31,8 @@ li {
     font-size: 18px;
     color: #e5e7eb;
     display: flex;
+    padding-left: 100px;
+    width: 100%;
 }
 #this {
   font-size: 48px;
@@ -38,15 +40,41 @@ li {
   color: #f9faf8;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 10px;
 
 }
 .img1 {
     display: flex;
-    align-self: flex-end;
-    object-fit: contain;
+   border-radius: 8px;
+   height:300px;
+   width:400px;
+   object-fit: cover;
+   margin-left: 40px ;
 }
 .second {
 
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+#image {
+    width: 200px;
+    height: 200px;
+    border-color: #3882f6;
+    border-width: 6em;
+
+}
+.all {
+   display: flex;
+}
+.info {
+    flex: 25%;
+    padding: 5px;
 }
 .third {
     background-color: #e5e7eb;
